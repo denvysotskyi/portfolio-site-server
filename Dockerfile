@@ -8,7 +8,7 @@ RUN yarn install
 
 COPY . .
 
-ENV PORT 8888
+ENV PORT 3000
 
 EXPOSE $PORT
 
