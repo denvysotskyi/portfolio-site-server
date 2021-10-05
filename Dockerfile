@@ -12,6 +12,4 @@ ENV PORT 3000
 
 EXPOSE $PORT
 
-VOLUME [ "/app/data" ]
-
-CMD [ "node", "dist/main" ]
+CMD [ "node", "start" ]
